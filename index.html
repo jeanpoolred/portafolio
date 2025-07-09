@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- dimensionar de acuerdo al dispositivo-->
+    <title> Mi Portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+     <link rel="icon" href="img/portafolio.png" type="image/x-icon">
+</head>
+<body>
+    <header>   
+        <h1> Jean Bermudes</h1>
+        <p class="frase-banner">Transformando ideas en soluciones tecnológicas</p>
+
+      
+        <p> 
+            <i class="fas fa-code"></i> Programador |
+            <i class="fas fa-check-circle"></i> Responsable |
+            <i class="fas fa-lightbulb"></i> Creativo
+        </p>
+        <button id="mode-toggle" class="modo-boton">🌙 Modo Oscuro</button>
+        <img src="img/banner.png" alt="Ilustración" class="img-banner">
+        
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Sobre-mi">Sobre mi</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Herramientas</a></li>
+            <li><a href="#logros">Logros</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+            
+
+        </ul>
+    </nav>
+    <section id="Sobre-mi" class="Sobre-mi">
+        <div class="contenedor-sobre-mi">
+            <img src="img/4.png" alt="Mi foto" class="foto-perfil">
+            <div class="texto-sobre-mi">
+                <h2>Sobre mí</h2>
+                <p> Hola, soy Jean, apasionado por la programación, desarrollo movíl y la tecnología. Me encanta crear apps funcionales y estéticamente atractivos. Actualmente en proceso de graduarme "Tesis", y este portafolio muestra parte de mi trabajo.
+                
+            </div>
+            <a href="docs/CV Jean.pdf"  class="boton-cv" download><i class="fas fa-dowload"></i>📄 Descargar CV</a>
+        </div>
+        </section>
+
+    <section id="Proyectos" class="proyectos">
+        <h2> Mis proyectos</h2>
+                <div class="contenedor-proyectos">
+            <div class="tarjeta-proyecto">
+                <div class="zoom-container">
+                    <img src="img/pcdoctor.jpg" alt="App PC Doctor" class="img-proyecto" onclick= "mostrarZoom(this.src)">
+                </div>
+                <h3> App Movíl: PC Doctor</h3>
+                <p> Aplicación de investigación realizada en android studio consiste en informacion basica e avanzada acerca de los softwares y hardware donde se especifican los tipos de errores de ambos con respecto a su codigo error y su posible solución</p>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <div class="zoom-container">
+                    <img src="img/braille.jpg" alt="App Braille" class="img-proyecto" onclick= "mostrarZoom(this.src)">
+                </div>
+                <h3> App Móvil: Aprende Braille</h3>
+                <p> Aplicación educativa accesible para Android que enseña vocales, números y palabras. Incluye conversor de texto a Braille</p>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <div class="zoom-container">
+                    <img src="img/deteccion.PNG" alt="App Detección de Emociones" class="img-proyecto" onclick= "mostrarZoom(this.src)">
+                </div>
+                <h3> App Movíl: Detección de Emociones</h3>
+                <p> App desarrollada en Android Studio que detecta emociones en tiempo real usando machine learning y explica emociones con juegos interactivos para niños adémas de integrar APIS para envio de alerta a tutores mediante SMS</p>
+                
+            </div>
+
+            
+
+            <div class="tarjeta-proyecto">
+                <div class="zoom-container">
+                 <img src="img/edison.PNG" alt="App Edison AR" class="img-proyecto" onclick= "mostrarZoom(this.src)">
+                </div>
+                <h3> Juego Interactivo EdisonAR</h3>
+                <p> Aplicación educativa de realidad aumentada desarrollada en Unity 3D basada en el robot Edison. Permite aprender los componentes del robot mediante escenaarios</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="seccion-habilidades">
+        <h2>HERRAMIENTAS</h2>
+        <div class="contenedor-habilidades">
+           <div class="habilidad">
+            <img src="img/python.png" alt="Python">
+            <span>Python</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/unity.png" alt="Unity 3D">
+            <span>Unity 3D</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/androidstudio.png" alt="Android Studio">
+            <span>Android Studio</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/java.png" alt="Java">
+            <span>Java</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/sqlserver.png" alt="SQL Server">
+            <span>SQL Server</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/mysql.png" alt="MySQL">
+            <span>MySQL</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/css.png" alt="CSS">
+            <span>CSS</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/api.png" alt="API">
+            <span>API</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/database.png" alt="Base de Datos">
+            <span>Base de Datos</span>
+            </div>
+            <div class="habilidad">
+            <img src="img/html.png" alt="HTML">
+            <span>HTML</span>
+            </div>
+  </div>
+    </section>
+
+<section id="habilidades" class="skills-section">
+    <h2>🛠️ Habilidades Técnicas</h2>
+
+    <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Unity 3D</span>
+        <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Android Studio</span>
+        <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Java</span>
+        <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>SQL Server</span>
+        <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>MySQL</span>
+        <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>HTML</span>
+        <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS</span>
+        <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>API REST</span>
+        <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Bases de Datos</span>
+        <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+    </section>
+
+    <section id="logros" class="certificados-section">
+        <h2>📜 Certificados y Logros</h2>
+        <div class="certificados-grid">
+
+            <!-- Artículo científico -->
+            <div class="cert-card">
+            <h3>🧪 Artículo Científico</h3>
+            <p>“Minecraft como herramienta educativa: desarrollo de un servidor para la enseñanza del álgebra de Boole”</p>
+            <a href="https://doi.org/10.33890/innova.v9.n4.2024.2687" target="_blank" class="btn">Ver artículo</a>
+            </div>
+
+            <!-- Certificados Cisco -->
+            <div class="cert-card">
+            <h3>💻 Cisco Networking Academy</h3>
+            <ul>
+                <li>IT Essentials: PC Hardware and Software</li>
+                <li>CCNAv7: Introduction to Networks</li>
+                <li>CCNAv7: Switching, Routing and Wireless Essentials</li>
+            </ul>
+            </div>
+
+            <!-- Certificados AITEC -->
+            <div class="cert-card">
+            <h3>🛠️ AITEC</h3>
+            <ul>
+                <li>Ensamblaje y Mantenimiento Preventivo de Computadoras</li>
+            </ul>
+            </div>
+
+        </div>
+        </section>
+
+
+
+
+
+     <section id="Contacto" class="contacto">
+    <h2>Contacto</h2>
+
+    <div class="datos-contacto">
+        <p><strong>Nombre:</strong> Jean Bermudes</p>
+        <p><strong>Email:</strong> <a href="mailto:bermudesmora@gmail.com">bermudesmora@gmail.com</a></p>
+        <p>
+    <strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/jean-bermudes-467861305/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> Visita mi perfil
+    </a>
+</p>
+
+    </div>
+
+    <form class="formulario-contacto" action="https://formspree.io/f/myzjqblq" method="post" id="formulario">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+
+    <p id="mensaje-confirmacion" style="display: none; color: green; text-align: center; margin-top: 20px;">
+        ✅ ¡Gracias por tu mensaje!
+    </p>
+</section>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 Jean Bermudes</p>
+        <p>
+            <a href="https://www.linkedin.com/in/jean-bermudes-467861305/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <div id="zoom-modal" class="zoom-modal" onclick="cerrarZoom()">
+  <img id="zoom-img" class="zoom-img" src="" alt="Imagen en zoom">
+</div>
+<script>
+  function mostrarZoom(src) {
+    const zoomModal = document.getElementById("zoom-modal");
+    const zoomImg = document.getElementById("zoom-img");
+    zoomImg.src = src;
+    zoomModal.style.display = "flex";
+  }
+
+  function cerrarZoom() {
+    document.getElementById("zoom-modal").style.display = "none";
+  }
+</script>
+
+<script>
+  const boton = document.getElementById("modo-toggle");
+  boton.addEventListener("click", () => {
+    document.body.classList.toggle("modo-oscuro");
+    if (document.body.classList.contains("modo-oscuro")) {
+      boton.textContent = "☀️ Modo Claro";
+    } else {
+      boton.textContent = "🌙 Modo Oscuro";
+    }
+  });
+</script>
+
+
+</body>
+</html>
