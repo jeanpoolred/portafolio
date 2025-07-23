@@ -592,4 +592,31 @@ body.dark-mode a.btn:hover {
   background-color: #555;
 }
 
+/*tabla estilizada
+.tabla-estilizada {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
 
+.tabla-estilizada thead tr {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tabla-estilizada th, .tabla-estilizada td {
+  border: 1px solid #dddddd;
+  padding: 12px 15px;
+}
+
+.tabla-estilizada tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.tabla-estilizada tbody tr:hover {
+  background-color: #f1f1f1;
+}
+*/
